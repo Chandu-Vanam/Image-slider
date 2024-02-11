@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+#heading{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5%;
+  font-family: 'Courier New', Courier, monospace;
+}
+.container img{
+  height: 70%;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.container button{
+  height: 50px;
+  width: 100px;
+  font-size: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#left-btn{
+  position: absolute;
+  left: 12%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#left-btn:hover,#right-btn:hover{
+  background-color: blueviolet;
+  border: none;
+  color: white;
+}
+#right-btn{
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  transform: translateY(-50%);
+}
